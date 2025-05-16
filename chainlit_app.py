@@ -1,6 +1,6 @@
 """Chainlit front‑end for NL→SQL Cloudflare Worker bot.
 Replace BOT_ENDPOINT with your Worker URL or set env var BOT_ENDPOINT.
-Run with:  chainlit run chainlit_app.py -h 0.0.0.0 -p 8000
+Run with:  chainlit run chainlit_app.py --host 0.0.0.0 --port 8000 
 """
 import os
 import httpx
