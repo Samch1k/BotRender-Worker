@@ -33,4 +33,4 @@ async def handle(message: cl.Message):
         return
 
     # Worker returns plain‑text Markdown
-    await cl.Message(content=resp.text, markdown=True).send()
+    await cl.Message(content=resp.text).send()
